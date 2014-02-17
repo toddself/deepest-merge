@@ -1,7 +1,7 @@
 {
   "name": "deepest-merge",
   "description": "Deep nested merge with function combination",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": {
     "url": "git://github.com/toddself/deepest-merge.git"
   },
@@ -24,7 +24,14 @@
     "email": "<todd@selfassembled.org>",
     "url": "http://tck.io"
   },
-  "keywords": ["merge", "object merge", "function merge", "array merge", "extend", "assign"],
+  "keywords": [
+    "merge",
+    "object merge",
+    "function merge",
+    "array merge",
+    "extend",
+    "assign"
+  ],
   "license": {
     "type": "MIT",
     "url": "https://github.com/toddself/deepest-merge/blog/master/LICENSE"
