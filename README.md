@@ -38,7 +38,77 @@ true
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN docme TO UPDATE -->
 
 <div>
-
+<div class="jsdoc-githubify">
+<section>
+<article>
+<div class="container-overview">
+<dl class="details">
+</dl>
+</div>
+<dl>
+<dt>
+<h4 class="name" id="deepestMerge"><span class="type-signature"></span>deepestMerge<span class="signature">(arguments)</span><span class="type-signature"> &rarr; {object}</span></h4>
+</dt>
+<dd>
+<div class="description">
+<p>Merge two objects together recursively, merging any nested objects as well
+including arrays and functions.</p>
+<p>If two key names match and the values aren't functions or arrays, the &quot;latest&quot;
+key wins (right imporant). If the values are functions or arrays, the values
+are merged -- either wrapped in a function which calls both functions in a row
+supplying the final object as the context, or concatenated together with
+<code>Array.concat</code></p>
+</div>
+<h5>Parameters:</h5>
+<table class="params">
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Argument</th>
+<th class="last">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="name"><code>arguments</code></td>
+<td class="type">
+<span class="param-type">object</span>
+</td>
+<td class="attributes">
+&lt;repeatable><br>
+</td>
+<td class="description last"><p>Objects you'd like to merge together</p></td>
+</tr>
+</tbody>
+</table>
+<dl class="details">
+<dt class="tag-source">Source:</dt>
+<dd class="tag-source"><ul class="dummy">
+<li>
+<a href="https://github.com/toddself/deepest-merge/blob/master/index.js">index.js</a>
+<span>, </span>
+<a href="https://github.com/toddself/deepest-merge/blob/master/index.js#L3">lineno 3</a>
+</li>
+</ul></dd>
+</dl>
+<h5>Returns:</h5>
+<div class="param-desc">
+<p>merged object</p>
+</div>
+<dl>
+<dt>
+Type
+</dt>
+<dd>
+<span class="param-type">object</span>
+</dd>
+</dl>
+</dd>
+</dl>
+</article>
+</section>
+</div>
 
 *generated with [docme](https://github.com/thlorenz/docme)*
 </div>

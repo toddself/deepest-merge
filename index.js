@@ -11,7 +11,7 @@
  * `Array.concat`
  *
  * @method  deepestMerge
- * @param {...object} [arguments] Objects you'd like to merge together
+ * @param {...object} arguments Objects you'd like to merge together
  * @returns {object} merged object
  */
 var deepestMerge = module.exports = function(){
