@@ -1,4 +1,6 @@
 # deepestMerge
+[![Build Status](https://travis-ci.org/toddself/deepest-merge.svg?branch=master)](https://travis-ci.org/toddself/deepest-merge)
+
 Deepely merges multiple objects together.
 
 If the two keys are functions, composes a wrapper function which calls each function in line (right most first), passing in the final composed object as the context.
